@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import {Chat} from './chat';
 import './index.css';
 
-const socket = io.connect('http://localhost:3030');
+const socket = io.connect('https://chat-app-plod.onrender.com');
 
 function App() {
   const [name, setName] = useState('');
